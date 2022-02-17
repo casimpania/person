@@ -16,14 +16,14 @@ func New(firstName string, lastName string, age int) person {
         return p
 }
 
-func (p person) ShowFirstName() string {
+func (p person) GetFirstName() string {
         return p.firstName
 }
 
-func (p person) ShowLastName() string {
+func (p person) GetLastName() string {
         return p.lastName
 }
 
-func (p person) ShowAge() int {
+func (p person) GetAge() int {
         return p.age
 }
